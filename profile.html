@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Profile</title>
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="d-flex">
+        <!-- Sidebar -->
+        <nav id="sidebar" class="">
+            <div class="sidebar-header d-flex align-items-start justify-content-start p-3 ">
+                <img src="assets/Logo.svg" alt="Logo" class="logo me-2">
+            </div>
+
+            <div class="px-3 pt-3">
+                <h6 class=" small text-muted">Welcome - WMSMS</h6>
+            </div>
+            <!-- Navigation -->
+            <ul class="list-unstyled px-2 pt-3">
+                <li><a href="/index.html"><i class="bi bi-speedometer2 me-2"></i>Dashboard</a></li>
+
+                <li><a href="#" class="active"><i class="bi bi-person-circle me-2"></i> My Profile</a></li>
+                <li><a href="#"><i class="bi bi-person-gear me-2"></i>Admin</a></li>
+                <li><a href="#"><i class="bi bi-calendar-plus me-2"></i>Appointments</a></li>
+                <li><a href="#"><i class="bi bi-card-list me-2"></i>Appointment List</a></li>
+                <li><a href="#"><i class="bi bi-tools me-2"></i>Mechanics</a></li>
+                <li><a href="#"><i class="bi bi-clipboard-data me-2"></i>Results</a></li>
+                <li><a href="#"><i class="bi bi-tools me-2"></i>Tests</a></li>
+                <li><a href="#"><i class="bi bi-bar-chart-line me-2"></i>Insights & Reports</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main Content -->
+        <div id="content" class="flex-grow-1">
+            <nav class="navbar navbar-light px-4 top-bar">
+                <button id="sidebarToggle" class="btn btn-outline-primary">
+                    <i class="bi bi-chevron-left"></i>
+                </button>
+                <span class="ms-3 fs-5">Profile</span>
+            </nav>
+
+            <div class="container mt-4">
+                <div class="row g-4">
+                    <div class="col-md-12">
+                        <div class="card shadow-sm">
+                            <div class="card-body">
+                                <h5 class="card-title"><i class="bi bi-bar-chart me-2"></i>Profile</h5>
+                                <p class="card-text">Quick metrics and reports for the week.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
